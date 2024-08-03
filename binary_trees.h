@@ -59,4 +59,5 @@ int btia_helper(const binary_tree_t *tree, int low, int hi);
 int btih_helper(const binary_tree_t *tree);
 void sata_helper(avl_t **root, int *array, size_t lo, size_t hi);
 int binary_tree_is_complete(const binary_tree_t *tree);
+binary_tree_t *binary_tree_rotate_left(binary_tree_t *tree);
 #endif /* _BINARY_TREES_H_ */
